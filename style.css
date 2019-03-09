@@ -1,0 +1,102 @@
+html, body {
+	height: 100%;
+	width: 100%;
+}
+.background {
+	background-color: #333333;
+	color: #ffffff;
+	height: 100%;
+	width: 100%
+}
+
+.text-holder {
+    width: 50%;
+    word-break: break-all;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Helvetica, Arial, sans-serif;
+
+}
+
+.text-holder h1 {
+    font-size:4em;
+    text-align: justify;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
+.text-holder h2 {
+    font-size:3em;
+    line-height: 110%;
+}
+
+.text-holder h2 span {
+    -webkit-transition: all 2s;
+    -moz-transition: all 2s;
+    -ms-transition: all 2s;
+    -o-transition: all 2s;
+    transition: all 2s;
+}
+
+.text-holder h2 .web-dev {
+    animation: pulse 2s infinite;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding:0 10px;
+}
+
+.text-holder h2 .web-dev:hover {
+    color: blue;
+}
+
+@keyframes pulse {
+    0% {
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+        transform: scale(1);
+    }
+    
+    50% {
+        -webkit-transform: scale(1.2);
+        -moz-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        -o-transform: scale(1.2);
+        transform: scale(1.2);
+        background-color: #000000;
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@media only screen
+and (min-width : 375px)
+and (max-width : 667px) {
+    .text-holder {
+        width: 100%;
+        position: static;
+        -webkit-transform: none;
+        -moz-transform: none;
+        -ms-transform: none;
+        -o-transform: none;
+        transform: none;
+    }
+
+    .text-holder h1 {
+        font-size: 3em;
+    }
+
+    .text-holder h2 {
+        font-size:2em;
+    }
+}

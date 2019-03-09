@@ -1,0 +1,186 @@
+body.burial {
+	background: #3E3222;
+	font-family: Georgia, serif;
+}
+body.sermon {
+	background: #fff;
+	color: #0A0C09;
+	font-family: Georgia, sans-serif;
+}
+.wrapper {
+	width: 960px;
+	margin: 0 auto;
+}
+.sermon .wrapper {
+	border-bottom: 1px solid #000;
+	width: 1080px;
+	padding-bottom: 20px;
+	margin-bottom: 10px;
+}
+.burial .wrapper {
+	border-bottom: 1px solid #796540;
+}
+.wrapper h1 {
+	font-size: .75em;
+	text-align: center;
+	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	text-transform: uppercase;
+	font-weight: normal;
+	letter-spacing: 10px;
+	padding-top: 2em;
+	padding-bottom: .5em;
+	border-bottom: 1px solid #796540;
+}
+.sermon h1 {
+	color:#CF7958;
+	padding-bottom: 2px;
+	letter-spacing: 8px;
+}
+.burial h1, h2, p, blockquote, dl {
+	color: #FBF2E1;
+}
+.burial h2 {
+	text-align: center;
+	font-size: 5em;
+	font-weight: normal;
+	text-shadow: #000000 1px 1px 3px;
+	margin: 0;
+	padding: 0;
+}
+.sermon h2 {
+	color: #000;
+	font-size: 6em;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+	padding-bottom: 20px;
+	letter-spacing: -3px;
+}
+.burial .content {
+	width: 740px;
+	margin: 0 auto 30px auto;
+	white-space: pre;
+}
+.burial .chapter {
+	font-size: 7em;
+	float: left;
+	color: #7B6540;
+	text-shadow: #000 1px 1px 3px;
+	padding: 25px 0 30px 0;
+}
+.burial .column {
+	width: 300px;
+	float: left;
+	margin-right: 140px;
+}
+.burial .column p {
+	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	font-size: .75em;
+	line-height: 170%;
+}
+.burial .omega {
+	margin-right: 0;
+}
+.sermon .column {
+	width: 346px;
+	float: left;
+	margin-right: 20px;
+	font-size: 12px;
+	font-style: italic;
+	line-height: 150%;
+}
+.sermon .column p {
+	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	font-size: .75em;
+	line-height: 170%;
+}
+.sermon .omega {
+	margin-right: 0;
+}
+blockquote {
+	padding: 30px 0 30px 0;
+	margin: 0;
+	font-family: Georgia, serif;
+	font-size: 2.5em;
+	position: relative;
+	left: -100px;
+}
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+em {
+	font-style: italic;
+}
+.burial .footer {
+	width: 740px;
+	margin: 40px auto 0 auto;
+	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	font-size: .75em;
+}
+.sermon .footer {
+	width: 1080px;
+	margin: 0 auto;
+}
+.sermon .footer h2 {
+	float: left;
+	padding-bottom: 0;
+	margin-bottom: 30px;
+}
+.sermon .footer ol {
+	list-style-type: decimal;
+	float: left;
+	margin-left: 40px;
+	margin-top: 10px;
+	font-size: 12px;
+}
+.sermon .footer ul {
+	float: left;
+	font-size: 12px;
+	margin-left: 40px;
+	margin-top: 10px;
+}
+
+.sermon .footer ol li {
+	margin-bottom: 5px;
+}
+
+.sermon .footer ul li {
+	margin-bottom: 8px;
+}
+.sermon .footer a {
+	color: #EE8B74;
+	text-decoration: none;
+	padding: 2px;
+}
+.sermon .footer a:hover {
+	background: #000;
+}	
+.burial .footer a {
+	color: #FBF2E1;
+	text-decoration: none;
+	padding: 2px;
+}
+.burial .footer a:hover {
+	background: #FBF2E1;
+	color: #3E3222;
+}
+.footer dt {
+	letter-spacing: 10px;
+	margin-bottom: 30px;
+}	
+.footer dd {
+	margin-bottom: 10px;
+}
+.burial .footer .t-burial a {
+	background: #FBF2E1;
+	color: #3E3222;
+}
+.sermon .footer .t-sermon a {
+	background: #000;
+}
+	
